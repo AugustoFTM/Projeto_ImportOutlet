@@ -113,14 +113,14 @@ p {
 .card::after {
     width: 100%;
     height: 100%;
-    background-image: url("../Componentes/IMG/𝚂𝚘𝚞𝚣𝚡𝚢  ღ.jpeg");
+    background-image: url("../IMG/𝚂𝚘𝚞𝚣𝚡𝚢\ \ ღ.jpeg");
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     background-size: cover;
     background-position: center;
-    filter: blur(3px);
+    filter: blur(2px);
     z-index: 0;
 }
 
