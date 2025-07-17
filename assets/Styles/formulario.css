@@ -147,6 +147,8 @@ p {
     transform: translateX(50%);
 }
 
+
+
 /* Cadastro Ativo */
 
 .card.cadastroActive .facaCadastro {
@@ -168,29 +170,4 @@ p {
 }
 .card.cadastroActive::after {
     transform: translateX(-50%);
-}
-
-/*Tranzições*/
-
-.card::after {
-    transition: all .5s;
-}
-.facaCadastro {
-    transition: all .3s 0;
-    transform: translateX(200%);
-}
-.formLogin {
-    opacity: 0;
-    transition: all .3s 0;
-}
-
-
-.facaLogin {
-    transition: all .3s 0;
-    transform: translateX(-200%);
-    opacity: 0;
-}
-.formCadastro {
-    opacity: 0;
-    transition: all .3s 0;
 }
